@@ -12,6 +12,12 @@ function keyPress(e) {
   if (e.code === "KeyS" || e.code === "ArrowDown") {
     vertical += distance;
   }
+  if (e.code === "KeyA" || e.code === "ArrowLeft") {
+    horizontal -= distance;
+  }
+  if (e.code === "KeyD" || e.code === "ArrowRight") {
+    horizontal += distance;
+  }
   if (horizontal < 0 || vertical < 0) {
     horizontal = 0;
     vertical = 0;
