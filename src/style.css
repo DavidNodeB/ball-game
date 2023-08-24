@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+}
+
+#ball {
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
